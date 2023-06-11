@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        .parent-div {
+            width: 100%;
+            height: 40vh; 
+            display: flex;
+            align-items: flex-start;
+            
+        }
+        .parent-div-2{
+            width: 100%;
+            height: 110vh; 
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            background-color: rgb(222, 217, 221);
+        }
+        
+        .sidebar {
+            width: 19%;
+            height: 100%;
+            background-color: rgb(3, 4, 53);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+           
+        }
+          .content {
+            width: 81%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url(file:///C:/Users/eli19/OneDrive/Desktop/html%20h.w/img/background.webp);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        h2{
+            display: flex; 
+            color:aquamarine;
+            margin-left: 21%;
+            margin-top:6%;
+
+        } 
+        h3 {
+            display: flex;
+            color: aquamarine; 
+            margin-left: 21%;
+        }
+        button {
+            display: flex;
+            background-color: aquamarine;
+            border-radius: 20px;
+            margin-left: 80%;
+        }
+       
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+        }
+        .Container{
+            width: 400px;
+            height: 32vh;
+            border: 1px solid #000;
+            border-radius: 5%;
+            margin: 30px;
+        }
+        .image{
+            float: left;
+            width: 25%;
+            margin-right: 10px;
+        }
+        .pad{
+            padding: 30px;
+        }
+        .lastdiv{
+            display: flex;
+            height: 50px;
+            margin-left:19%;
+            background-color: rgb(5, 4, 31);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent-div">
+        <div class="sidebar">
+            <img style="height: 20%; width: auto;" src="C:\Users\eli19\OneDrive\Desktop\html h.w\img\logo.webp" alt="Sidebar Image">
+            <p class="text-center" style=" color: aquamarine; text-align: center;">Home</p>
+            <p class="text-center" style=" color: aquamarine; text-align: center;">About</p>
+            <p class="text-center" style=" color: aquamarine; text-align: center;">Projects</p>
+            <p class="text-center" style=" color: aquamarine; text-align: center;">Case study</p>
+            <p class="text-center" style=" color: aquamarine; text-align: center;">Blog</p>
+            <p class="text-center" style=" color: aquamarine; text-align: center;">Contact</p>
+            </div>
+            <div class="content">
+                <div>
+                    <h2 >On our way to conquer the world</h2>
+                    <h3 >Mastering top-notch technologies while enjoying our time learning front-end HTML and CSS</h3>
+                    <button >Explore Technologies</button>
+                </div>
+            </div>
+    </div>
+    <div class="parent-div-2" style="margin-left: 19%;  padding-left: 100px;">
+        
+        <div class="Container pad" style="height: auto; background-color: pink;">
+            <img class="image"  src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\ai.webp">
+            <div >
+            <p >Artificial Intelligence (AI) is a field of computer science that focuses on creating intelligent systems capable of performing tasks that would typically require human intelligence. It involves developing algorithms and models that enable machines to perceive, reason, learn, and make decisions.</p>
+            
+              <p >  AI encompasses various subfields, including machine learning, natural language processing, computer vision, robotics, and expert systems. These technologies have seen significant advancements in recent years, fueled by increased computational power, access to massive amounts of data, and improvements in algorithmic techniques.</p> </div>
+            </div>
+
+        <div class="Container pad" style="height:auto; background-color: rgb(140, 222, 194);">
+            <img class="image" src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\asemmbly.webp">
+            <div  >
+                <p>Assembly language is a low-level programming language that provides a bridge between machine code and higher-level programming languages. It is often used in the development of system software, device drivers, and embedded systems, where direct control over the hardware is required. In assembly language, instructions are written using mnemonic codes that correspond to specific machine instructions.</p>
+
+                <p>   One of the main advantages of assembly language is its close correspondence to the underlying hardware architecture. Assembly instructions are directly mapped to machine instructions, allowing programmers to have fine-grained control over the execution of their programs. This level of control is particularly important in areas where performance and efficiency are crucial.</h5>
+            </div>
+
+       
+        
+        </div>
+        <div class = "Container pad" style="background-color: rgb(205, 170, 240); height: auto;">
+            <img class="image" src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\cyber.webp">
+            <div>
+                <p>Cybersecurity is a critical field that focuses on protecting computer systems, networks, and data from unauthorized access, theft, damage, or disruption. In today's interconnected world, where information is exchanged and stored digitally, the importance of cybersecurity cannot be overstated.</p>
+
+                 <p>The rapid advancement of technology has brought about numerous benefits, but it has also introduced new risks and vulnerabilities. Cybercriminals are constantly evolving their tactics, seeking to exploit weaknesses in computer systems and networks for their personal gain. This has led to a rise in various cyber threats, such as hacking, malware, phishing, and identity theft, among others.
+                 </p>
+            </div>
+        </div>
+            <div class = "Container pad"    style="background-color: rgb(242, 219, 155); height: auto;" >
+            <img class="image" src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\communication.webp">
+            <div>
+                <p>Computer communication refers to the exchange of information and data between computers or computing devices. It plays a crucial role in enabling connectivity and facilitating the flow of data across networks. Whether it's sharing files, sending emails, browsing the internet, or participating in online video conferences, computer communication allows individuals and organizations to communicate, collaborate, and access resources remotely.</p>
+
+                <p>One of the fundamental components of computer communication is the concept of protocols. Protocols define a set of rules and standards that govern how data is transmitted, received, and interpreted by computers. They ensure that different devices can communicate effectively and understand each other's messages. Examples of widely used protocols include the Internet Protocol (IP), Transmission Control Protocol (TCP), and Hypertext Transfer Protocol (HTTP).
+                </p>
+            </div>
+        </div>
+
+        <div class = "Container pad" style="background-color: rgb(148, 255, 248); height: auto;">
+            <img class="image" src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\fullstack.webp">
+            <div>
+                <p>Full-stack programming refers to the ability to work on both the front-end and back-end aspects of a web application. A full-stack developer is proficient in multiple programming languages and frameworks, enabling them to handle the entire development process, from designing the user interface to managing the server-side logic and database interactions.</p>
+
+                  <p>One of the key advantages of full-stack programming is the versatility it offers. Full-stack developers have a comprehensive understanding of the entire application stack, allowing them to tackle various tasks independently. They can seamlessly switch between working on client-side technologies, such as HTML, CSS, and JavaScript, and server-side technologies like Node.js, Python, or Ruby on Rails. This versatility is particularly valuable in small to mid-sized companies or startups where resources may be limited, and a developer is expected to wear multiple hats.</p>
+                   
+            </div>
+        </div>
+   
+        <div class = "Container pad" style="height: auto; background-color: rgb(240, 168, 229);">
+            <img class="image" src ="C:\Users\eli19\OneDrive\Desktop\html h.w\img\java.webp">
+            <div>
+                <p>Computer communication refers to the exchange of information and data between computers or computing devices. It plays a crucial role in enabling connectivity and facilitating the flow of data across networks. Whether it's sharing files, sending emails, browsing the internet, or participating in online video conferences, computer communication allows individuals and organizations to communicate, collaborate, and access resources remotely.</p>
+
+                <p>One of the fundamental components of computer communication is the concept of protocols. Protocols define a set of rules and standards that govern how data is transmitted, received, and interpreted by computers. They ensure that different devices can communicate effectively and understand each other's messages. Examples of widely used protocols include the Internet Protocol (IP), Transmission Control Protocol (TCP), and Hypertext Transfer Protocol (HTTP).
+                </p>
+            </div>
+        </div>
+   
+   
+    </div>
+    <div class="lastdiv" style="align-items: center; justify-content: center; color:aquamarine;">
+        <p style="padding-left: 50px;">
+            <img class="image" style="width: 30px;" src="C:\Users\eli19\OneDrive\Desktop\html h.w\img\facebook.svg" alt="Facebook" height="20px" />
+            Facebook
+    </p>
+    <p style="padding-left: 50px;">
+            <img class="image" style="width: 30px;" src="C:\Users\eli19\OneDrive\Desktop\html h.w\img\instagram2.svg" alt="Instagram" height="20px" />
+            Instagram
+        </p>
+            <p style="padding-left: 50px;">
+            <img class="image" style="width: 30px;" src="C:\Users\eli19\OneDrive\Desktop\html h.w\img\twitter.svg" alt="Twitter" height="20px" />
+            Twitter
+        </p>
+    </div>
+        
+    </body>
+    </html>
+    
